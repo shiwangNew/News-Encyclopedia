@@ -1,0 +1,38 @@
+{
+  "scrollIndicator": "none",
+  "bounce": "none",
+  "titleNView": {
+    "searchInput": {
+      "align": "center",
+      "borderRadius": "4px",
+      "placeholder": "搜索新闻",
+      "placeholderColor": "#CCCCCC",
+      "disabled": true,
+      "backgroundColor": "#F7F7F7"
+    },
+    "buttons": [
+      {
+        "color": "#FF910E",
+        "colorPressed": "#ccc",
+        "float": "left",
+        "fontSize": "22px",
+        "fontSrc": "/static/font/icon.ttf",
+        "text": ""
+      },
+      {
+        "color": "#000000",
+        "colorPressed": "#ccc",
+        "float": "right",
+        "fontSize": "22px",
+        "fontSrc": "/static/font/icon.ttf",
+        "text": ""
+      }
+    ]
+  },
+  "usingComponents": {
+    "news-list": "/components/home/home-news-list",
+    "tabs": "/components/home/home-tabs",
+    "load-more": "/components/common/load-more",
+    "no-thing": "/components/common/no-thing"
+  }
+}
